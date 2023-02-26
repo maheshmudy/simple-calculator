@@ -1,3 +1,32 @@
 body{
     text-align: center;
+    align-items: center;
+}
+table{
+    text-align: center;
+}
+#display{
+    width: 100%;
+    pointer-events: none;
+}
+.button{
+    width: 70px;
+    height: 70px;
+    border-color: green;
+    background-color: aqua;
+    border-radius: 8px;
+    font-size: medium;
+}  
+#display {
+    border-color: rgb(239, 13, 13) ;
+    width: 280px;
+    height: 70px;
+    font-size: xx-large;
+}
+#zero
+{
+    width: 140px;
+}
+#clear{
+    width: 210px;
 }
