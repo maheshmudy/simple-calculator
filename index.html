@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="text" id="display">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                    <button id="clear" onclick="displayClear()" class="button"><b>Clear</b></button>
+            </td>
+            <td>
+                <button onclick="buttonClick('+')" class="button"><b>+</b></button>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="buttonClick('7')" class="button"><b>7</b></button></td>
+            <td><button onclick="buttonClick('8')" class="button"><b>8</b></button></td>
+            <td><button onclick="buttonClick('9')" class="button"><b>9</b></button></td>
+            <td><button onclick="buttonClick('/')" class="button"><b>/</b></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="buttonClick('4')" class="button"><b>4</b></button></td>
+            <td><button onclick="buttonClick('5')" class="button"><b>5</b></button></td>
+            <td><button onclick="buttonClick('6')" class="button"><b>6</b></button></td>
+            <td><button onclick="buttonClick('*')" class="button"><b>*</b></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="buttonClick('1')" class="button"><b>1</b></button></td>
+            <td><button onclick="buttonClick('2')" class="button"><b>2</b></button></td>
+            <td><button onclick="buttonClick('3')" class="button"><b>3</b></button></td>
+            <td><button onclick="buttonClick('-')" class="button"><b>-</b></button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="buttonClick('0')" class="button"><b>0</b></button></td>
+            <td><button onclick="buttonClick('.')" class="button"><b>.</b></button></td>
+            <td><button onclick="equalClick('=')" class="button"><b>=</b></button></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
